@@ -37,3 +37,6 @@ This is a very early version of the mod, Please be sure to use with caution and 
 * **MoveObject()**
 * **RotateObject()**
 * **ParentObject()**
+
+
+Credits to game-icons.net for the mod icon.
