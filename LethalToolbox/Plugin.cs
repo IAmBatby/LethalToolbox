@@ -39,6 +39,7 @@ namespace LethalToolkit
             Logger.LogInfo($"LethalToolbox loaded!!");
 
             NetcodePatch();
+            Harmony.PatchAll(typeof(LethalToolbox.Patches));
 
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
