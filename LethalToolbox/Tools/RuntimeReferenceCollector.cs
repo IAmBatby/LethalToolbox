@@ -37,12 +37,12 @@ namespace LethalToolbox
             if (referenceContent is SelectableLevel selectableLevel)
             {
                 if (PatchedContent.TryGetExtendedContent(selectableLevel, out ExtendedLevel foundExtendedLevel))
-                    referenceContent = foundExtendedLevel;
+                    returnContent = foundExtendedLevel;
             }
             else if (referenceContent is DungeonFlow dungeonFlow)
             {
                 if (PatchedContent.TryGetExtendedContent(dungeonFlow, out ExtendedDungeonFlow foundExtendedDungeon))
-                    referenceContent = foundExtendedDungeon;
+                    returnContent = foundExtendedDungeon;
             }
             else if (referenceContent is Item item)
             {

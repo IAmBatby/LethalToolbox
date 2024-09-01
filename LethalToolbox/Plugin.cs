@@ -20,7 +20,7 @@ namespace LethalToolkit
     {
         public const string ModGUID = "imabatby.lethaltoolbox";
         public const string ModName = "LethalToolbox";
-        public const string ModVersion = "1.0.0";
+        public const string ModVersion = "1.0.4";
 
         public static Plugin Instance;
 
